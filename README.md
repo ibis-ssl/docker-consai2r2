@@ -7,7 +7,7 @@
 ```bash
 $ ./docker_build.sh # dockerイメージを作る
 $ ./colcon_build.sh # colcon buildする
-$ ./consai2r2.sh # consai2r2を起動する
+$ ./bash.sh # bashを起動する
 ```
 
 # How to build docker image without cache

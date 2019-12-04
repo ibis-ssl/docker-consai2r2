@@ -13,5 +13,5 @@ RUN apt-get update && apt-get upgrade -y && apt-get install -y --no-install-reco
 RUN apt-get install -y libprotobuf-dev libprotoc-dev protobuf-compiler
 RUN pip2 install protobuf
 
-COPY entrypoint/roslaunch.sh /
+COPY entrypoint/ros2launch.sh /
 COPY entrypoint/colcon_build.sh /

@@ -1,4 +1,0 @@
-Invoking command in '/userdir/catkin_ws/build/consai2_msgs': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /userdir/catkin_ws/build/consai2_msgs -- -j36 -l36
-Invoked command in '/userdir/catkin_ws/build/consai2_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /userdir/catkin_ws/build/consai2_msgs -- -j36 -l36
-Invoking command in '/userdir/catkin_ws/build/consai2_msgs': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /userdir/catkin_ws/build/consai2_msgs --target install -- -j36 -l36
-Invoked command in '/userdir/catkin_ws/build/consai2_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /userdir/catkin_ws/build/consai2_msgs --target install -- -j36 -l36
