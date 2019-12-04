@@ -6,8 +6,8 @@
 - nvidia driverのある環境
 ```bash
 $ ./docker_build.sh # dockerイメージを作る
-$ ./catkin_build.sh # catkin buildする
-$ ./consai2.sh # consai2を起動する
+$ ./colcon_build.sh # colcon buildする
+$ ./consai2r2.sh # consai2r2を起動する
 ```
 
 # How to build docker image without cache
