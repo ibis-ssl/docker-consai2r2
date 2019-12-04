@@ -1,0 +1,8 @@
+source;share/consai2_sender/hook/cmake_prefix_path.ps1
+source;share/consai2_sender/hook/cmake_prefix_path.dsv
+source;share/consai2_sender/hook/cmake_prefix_path.sh
+source;share/consai2_sender/local_setup.bash
+source;share/consai2_sender/local_setup.dsv
+source;share/consai2_sender/local_setup.ps1
+source;share/consai2_sender/local_setup.sh
+source;share/consai2_sender/local_setup.zsh

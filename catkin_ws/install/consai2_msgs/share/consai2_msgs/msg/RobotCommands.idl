@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from consai2_msgs/msg/RobotCommands.msg
+// generated code does not contain a copyright notice
+
+#include "consai2_msgs/msg/RobotCommand.idl"
+#include "std_msgs/msg/Header.idl"
+
+module consai2_msgs {
+  module msg {
+    struct RobotCommands {
+      std_msgs::msg::Header header;
+
+      boolean is_yellow;
+
+      sequence<consai2_msgs::msg::RobotCommand> commands;
+    };
+  };
+};

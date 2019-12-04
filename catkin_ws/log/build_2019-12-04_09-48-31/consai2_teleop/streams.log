@@ -1,0 +1,39 @@
+Invoking command in '/userdir/catkin_ws/build/consai2_teleop': AMENT_PREFIX_PATH=/userdir/catkin_ws/install/consai2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdir/catkin_ws/install/consai2_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/userdir/catkin_ws/install/consai2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/userdir/catkin_ws/install/consai2_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /userdir/catkin_ws/build/consai2_teleop -- -j36 -l36
+[35m[1mScanning dependencies of target joystick_component[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/joystick_component.dir/src/joystick_component.cpp.o[0m
+[01m[K/userdir/catkin_ws/src/consai2r2/consai2_teleop/src/joystick_component.cpp:[m[K In member function ‘[01m[Kvoid joystick::JoystickComponent::publish_robot_commands(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/userdir/catkin_ws/src/consai2r2/consai2_teleop/src/joystick_component.cpp:34:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KBUTTON_SHUTDOWN_1[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   const int [01;35m[KBUTTON_SHUTDOWN_1[m[K = 8;
+             [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/userdir/catkin_ws/src/consai2r2/consai2_teleop/src/joystick_component.cpp:35:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KBUTTON_SHUTDOWN_2[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   const int [01;35m[KBUTTON_SHUTDOWN_2[m[K = 8;
+             [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[ 50%] [32m[1mLinking CXX shared library libjoystick_component.so[0m
+[ 50%] Built target joystick_component
+[35m[1mScanning dependencies of target teleop_node[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable teleop_node[0m
+[100%] Built target teleop_node
+Invoked command in '/userdir/catkin_ws/build/consai2_teleop' returned '0': AMENT_PREFIX_PATH=/userdir/catkin_ws/install/consai2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdir/catkin_ws/install/consai2_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/userdir/catkin_ws/install/consai2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/userdir/catkin_ws/install/consai2_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /userdir/catkin_ws/build/consai2_teleop -- -j36 -l36
+Invoking command in '/userdir/catkin_ws/build/consai2_teleop': AMENT_PREFIX_PATH=/userdir/catkin_ws/install/consai2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdir/catkin_ws/install/consai2_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/userdir/catkin_ws/install/consai2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/userdir/catkin_ws/install/consai2_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /userdir/catkin_ws/build/consai2_teleop --target install -- -j36 -l36
+[ 50%] Built target joystick_component
+[100%] Built target teleop_node
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /userdir/catkin_ws/install/consai2_teleop/lib/libjoystick_component.so
+-- Set runtime path of "/userdir/catkin_ws/install/consai2_teleop/lib/libjoystick_component.so" to ""
+-- Installing: /userdir/catkin_ws/install/consai2_teleop/lib/consai2_teleop/teleop_node
+-- Set runtime path of "/userdir/catkin_ws/install/consai2_teleop/lib/consai2_teleop/teleop_node" to ""
+-- Installing: /userdir/catkin_ws/install/consai2_teleop/share/ament_index/resource_index/package_run_dependencies/consai2_teleop
+-- Installing: /userdir/catkin_ws/install/consai2_teleop/share/ament_index/resource_index/parent_prefix_path/consai2_teleop
+-- Installing: /userdir/catkin_ws/install/consai2_teleop/share/consai2_teleop/environment/ament_prefix_path.sh
+-- Installing: /userdir/catkin_ws/install/consai2_teleop/share/consai2_teleop/environment/path.sh
+-- Installing: /userdir/catkin_ws/install/consai2_teleop/share/consai2_teleop/local_setup.bash
+-- Installing: /userdir/catkin_ws/install/consai2_teleop/share/consai2_teleop/local_setup.sh
+-- Installing: /userdir/catkin_ws/install/consai2_teleop/share/consai2_teleop/local_setup.zsh
+-- Installing: /userdir/catkin_ws/install/consai2_teleop/share/ament_index/resource_index/packages/consai2_teleop
+-- Installing: /userdir/catkin_ws/install/consai2_teleop/share/ament_index/resource_index/rclcpp_components/consai2_teleop
+-- Installing: /userdir/catkin_ws/install/consai2_teleop/share/consai2_teleop/cmake/consai2_teleopConfig.cmake
+-- Installing: /userdir/catkin_ws/install/consai2_teleop/share/consai2_teleop/cmake/consai2_teleopConfig-version.cmake
+-- Installing: /userdir/catkin_ws/install/consai2_teleop/share/consai2_teleop/package.xml
+Invoked command in '/userdir/catkin_ws/build/consai2_teleop' returned '0': AMENT_PREFIX_PATH=/userdir/catkin_ws/install/consai2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdir/catkin_ws/install/consai2_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/userdir/catkin_ws/install/consai2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/userdir/catkin_ws/install/consai2_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /userdir/catkin_ws/build/consai2_teleop --target install -- -j36 -l36

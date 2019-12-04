@@ -1,0 +1,386 @@
+[0.000000] (-) TimerEvent: {}
+[0.000408] (consai2_msgs) JobQueued: {'identifier': 'consai2_msgs', 'dependencies': OrderedDict()}
+[0.000754] (consai2_sender) JobQueued: {'identifier': 'consai2_sender', 'dependencies': OrderedDict([('consai2_msgs', '/userdir/catkin_ws/install/consai2_msgs')])}
+[0.000783] (consai2_teleop) JobQueued: {'identifier': 'consai2_teleop', 'dependencies': OrderedDict([('consai2_msgs', '/userdir/catkin_ws/install/consai2_msgs')])}
+[0.000803] (consai2_msgs) JobStarted: {'identifier': 'consai2_msgs'}
+[0.012235] (consai2_msgs) JobProgress: {'identifier': 'consai2_msgs', 'progress': 'cmake'}
+[0.013059] (consai2_msgs) Command: {'cmd': ['/usr/bin/cmake', '/userdir/catkin_ws/src/consai2r2/consai2_msgs', '-DCMAKE_INSTALL_PREFIX=/userdir/catkin_ws/install/consai2_msgs'], 'cwd': '/userdir/catkin_ws/build/consai2_msgs', 'env': OrderedDict([('HOSTNAME', 'future731-WS-X299-SAGE'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('SHLVL', '1'), ('OLDPWD', '/userdir'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('DOCKER_ROS_IP', 'localhost'), ('ROS_DISTRO', 'dashing'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,compat32,utility'), ('TERM', 'xterm'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('DOCKER_ROS_SETUP', '/catkin_ws/devel/setup.bash'), ('LANG', 'ja_JP.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/userdir/catkin_ws/build/consai2_msgs'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[0.030862] (consai2_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.3 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[0.054758] (consai2_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[0.054991] (consai2_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099603] (-) TimerEvent: {}
+[0.200214] (-) TimerEvent: {}
+[0.244305] (consai2_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)\n'}
+[0.300351] (-) TimerEvent: {}
+[0.341381] (consai2_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") \n'}
+[0.364870] (consai2_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/dashing/include  \n'}
+[0.377267] (consai2_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.7 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[0.400471] (-) TimerEvent: {}
+[0.442377] (consai2_msgs) StdoutLine: {'line': b'-- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)\n'}
+[0.472904] (consai2_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") \n'}
+[0.500573] (-) TimerEvent: {}
+[0.600902] (-) TimerEvent: {}
+[0.654232] (consai2_msgs) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c\n'}
+[0.690829] (consai2_msgs) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp\n'}
+[0.701034] (-) TimerEvent: {}
+[0.801479] (-) TimerEvent: {}
+[0.901858] (-) TimerEvent: {}
+[0.917734] (consai2_msgs) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[0.941346] (consai2_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[0.943622] (consai2_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.7.9 (/opt/ros/dashing/share/python_cmake_module/cmake)\n'}
+[0.975650] (consai2_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[0.975932] (consai2_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.976065] (consai2_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m\n'}
+[0.976147] (consai2_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so\n'}
+[0.998294] (consai2_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.001924] (-) TimerEvent: {}
+[1.102222] (-) TimerEvent: {}
+[1.163971] (consai2_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.202342] (-) TimerEvent: {}
+[1.264786] (consai2_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.267104] (consai2_msgs) StdoutLine: {'line': b'-- Build files have been written to: /userdir/catkin_ws/build/consai2_msgs\n'}
+[1.272581] (consai2_msgs) CommandEnded: {'returncode': 0}
+[1.273415] (consai2_msgs) JobProgress: {'identifier': 'consai2_msgs', 'progress': 'build'}
+[1.274589] (consai2_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/userdir/catkin_ws/build/consai2_msgs', '--', '-j36', '-l36'], 'cwd': '/userdir/catkin_ws/build/consai2_msgs', 'env': OrderedDict([('HOSTNAME', 'future731-WS-X299-SAGE'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('SHLVL', '1'), ('OLDPWD', '/userdir'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('DOCKER_ROS_IP', 'localhost'), ('ROS_DISTRO', 'dashing'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,compat32,utility'), ('TERM', 'xterm'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('DOCKER_ROS_SETUP', '/catkin_ws/devel/setup.bash'), ('LANG', 'ja_JP.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/userdir/catkin_ws/build/consai2_msgs'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[1.302474] (-) TimerEvent: {}
+[1.334650] (consai2_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.342622] (consai2_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target consai2_msgs__cpp\x1b[0m\n'}
+[1.357722] (consai2_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.402569] (-) TimerEvent: {}
+[1.502894] (-) TimerEvent: {}
+[1.603231] (-) TimerEvent: {}
+[1.703593] (-) TimerEvent: {}
+[1.709398] (consai2_msgs) StdoutLine: {'line': b'[  5%] Built target consai2_msgs__cpp\n'}
+[1.727739] (consai2_msgs) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.728235] (consai2_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target consai2_msgs__rosidl_generator_c\x1b[0m\n'}
+[1.728442] (consai2_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.744186] (consai2_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/consai2_msgs__rosidl_generator_c.dir/rosidl_generator_c/consai2_msgs/msg/robot_command__functions.c.o\x1b[0m\n'}
+[1.747711] (consai2_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/consai2_msgs__rosidl_generator_c.dir/rosidl_generator_c/consai2_msgs/msg/robot_commands__functions.c.o\x1b[0m\n'}
+[1.799432] (consai2_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libconsai2_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[1.803691] (-) TimerEvent: {}
+[1.866664] (consai2_msgs) StdoutLine: {'line': b'[ 18%] Built target consai2_msgs__rosidl_generator_c\n'}
+[1.884968] (consai2_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.903888] (-) TimerEvent: {}
+[2.004327] (-) TimerEvent: {}
+[2.056443] (consai2_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target consai2_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.077217] (consai2_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/consai2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/consai2_msgs/msg/robot_command__type_support.cpp.o\x1b[0m\n'}
+[2.077785] (consai2_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/consai2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/consai2_msgs/msg/robot_commands__type_support.cpp.o\x1b[0m\n'}
+[2.104427] (-) TimerEvent: {}
+[2.167844] (consai2_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target consai2_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.191236] (consai2_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/consai2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/consai2_msgs/msg/dds_fastrtps/robot_command__type_support.cpp.o\x1b[0m\n'}
+[2.192323] (consai2_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/consai2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/consai2_msgs/msg/dds_fastrtps/robot_commands__type_support.cpp.o\x1b[0m\n'}
+[2.204558] (-) TimerEvent: {}
+[2.304984] (-) TimerEvent: {}
+[2.395254] (consai2_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target consai2_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.405111] (-) TimerEvent: {}
+[2.415614] (consai2_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX shared library libconsai2_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.415898] (consai2_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/consai2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/consai2_msgs/msg/robot_command__type_support.c.o\x1b[0m\n'}
+[2.416221] (consai2_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/consai2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/consai2_msgs/msg/robot_commands__type_support.c.o\x1b[0m\n'}
+[2.466501] (consai2_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking C shared library libconsai2_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.505251] (-) TimerEvent: {}
+[2.513941] (consai2_msgs) StdoutLine: {'line': b'[ 43%] Built target consai2_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.532185] (consai2_msgs) StdoutLine: {'line': b'[ 43%] Built target consai2_msgs__rosidl_typesupport_introspection_c\n'}
+[2.605368] (-) TimerEvent: {}
+[2.705742] (-) TimerEvent: {}
+[2.759925] (consai2_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libconsai2_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.805861] (-) TimerEvent: {}
+[2.879097] (consai2_msgs) StdoutLine: {'line': b'[ 45%] Built target consai2_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.895377] (consai2_msgs) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.897594] (consai2_msgs) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.906033] (-) TimerEvent: {}
+[3.006528] (-) TimerEvent: {}
+[3.106968] (-) TimerEvent: {}
+[3.207273] (-) TimerEvent: {}
+[3.307607] (-) TimerEvent: {}
+[3.350503] (consai2_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target consai2_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.372816] (consai2_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/consai2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/consai2_msgs/msg/robot_command__type_support_c.cpp.o\x1b[0m\n'}
+[3.373909] (consai2_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/consai2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/consai2_msgs/msg/robot_commands__type_support_c.cpp.o\x1b[0m\n'}
+[3.374610] (consai2_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target consai2_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.397117] (consai2_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/consai2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/consai2_msgs/msg/robot_command__type_support.cpp.o\x1b[0m\n'}
+[3.397398] (consai2_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/consai2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/consai2_msgs/msg/robot_commands__type_support.cpp.o\x1b[0m\n'}
+[3.407730] (-) TimerEvent: {}
+[3.508097] (-) TimerEvent: {}
+[3.608477] (-) TimerEvent: {}
+[3.708811] (-) TimerEvent: {}
+[3.809128] (consai2_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libconsai2_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.809385] (-) TimerEvent: {}
+[3.899256] (consai2_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libconsai2_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.909512] (-) TimerEvent: {}
+[3.927724] (consai2_msgs) StdoutLine: {'line': b'[ 67%] Built target consai2_msgs__rosidl_typesupport_fastrtps_c\n'}
+[3.946666] (consai2_msgs) StdoutLine: {'line': b'[ 70%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.009619] (-) TimerEvent: {}
+[4.017965] (consai2_msgs) StdoutLine: {'line': b'[ 70%] Built target consai2_msgs__rosidl_typesupport_cpp\n'}
+[4.109735] (-) TimerEvent: {}
+[4.210086] (-) TimerEvent: {}
+[4.299262] (consai2_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target consai2_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[4.310188] (-) TimerEvent: {}
+[4.320249] (consai2_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/consai2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/consai2_msgs/msg/robot_command__type_support.cpp.o\x1b[0m\n'}
+[4.321211] (consai2_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/consai2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/consai2_msgs/msg/robot_commands__type_support.cpp.o\x1b[0m\n'}
+[4.371698] (consai2_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libconsai2_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.410310] (-) TimerEvent: {}
+[4.459621] (consai2_msgs) StdoutLine: {'line': b'[ 78%] Built target consai2_msgs__rosidl_typesupport_c\n'}
+[4.474906] (consai2_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target consai2_msgs\x1b[0m\n'}
+[4.499091] (consai2_msgs) StdoutLine: {'line': b'[ 78%] Built target consai2_msgs\n'}
+[4.510535] (-) TimerEvent: {}
+[4.516295] (consai2_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target consai2_msgs__py\x1b[0m\n'}
+[4.539598] (consai2_msgs) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.610609] (-) TimerEvent: {}
+[4.711059] (-) TimerEvent: {}
+[4.811466] (-) TimerEvent: {}
+[4.911850] (-) TimerEvent: {}
+[5.012208] (-) TimerEvent: {}
+[5.112546] (-) TimerEvent: {}
+[5.153335] (consai2_msgs) StdoutLine: {'line': b'[ 81%] Built target consai2_msgs__py\n'}
+[5.169630] (consai2_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target consai2_msgs__python\x1b[0m\n'}
+[5.209514] (consai2_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/consai2_msgs__python.dir/rosidl_generator_py/consai2_msgs/msg/_robot_command_s.c.o\x1b[0m\n'}
+[5.210964] (consai2_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/consai2_msgs__python.dir/rosidl_generator_py/consai2_msgs/msg/_robot_commands_s.c.o\x1b[0m\n'}
+[5.212658] (-) TimerEvent: {}
+[5.313352] (-) TimerEvent: {}
+[5.350625] (consai2_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/consai2_msgs/libconsai2_msgs__python.so\x1b[0m\n'}
+[5.413508] (-) TimerEvent: {}
+[5.438936] (consai2_msgs) StdoutLine: {'line': b'[ 89%] Built target consai2_msgs__python\n'}
+[5.455354] (consai2_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target consai2_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[5.455691] (consai2_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target consai2_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[5.483454] (consai2_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/consai2_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/consai2_msgs/_consai2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.483887] (consai2_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/consai2_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/consai2_msgs/_consai2_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.513648] (-) TimerEvent: {}
+[5.597040] (consai2_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/consai2_msgs/consai2_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.597401] (consai2_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/consai2_msgs/consai2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.613755] (-) TimerEvent: {}
+[5.680847] (consai2_msgs) StdoutLine: {'line': b'[100%] Built target consai2_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.681289] (consai2_msgs) StdoutLine: {'line': b'[100%] Built target consai2_msgs__rosidl_typesupport_c__pyext\n'}
+[5.698828] (consai2_msgs) CommandEnded: {'returncode': 0}
+[5.714025] (-) TimerEvent: {}
+[5.809722] (consai2_msgs) JobProgress: {'identifier': 'consai2_msgs', 'progress': 'install'}
+[5.810807] (consai2_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/userdir/catkin_ws/build/consai2_msgs', '--target', 'install', '--', '-j36', '-l36'], 'cwd': '/userdir/catkin_ws/build/consai2_msgs', 'env': OrderedDict([('HOSTNAME', 'future731-WS-X299-SAGE'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('SHLVL', '1'), ('OLDPWD', '/userdir'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('DOCKER_ROS_IP', 'localhost'), ('ROS_DISTRO', 'dashing'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,compat32,utility'), ('TERM', 'xterm'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('DOCKER_ROS_SETUP', '/catkin_ws/devel/setup.bash'), ('LANG', 'ja_JP.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/userdir/catkin_ws/build/consai2_msgs'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[5.816908] (-) TimerEvent: {}
+[5.901350] (consai2_msgs) StdoutLine: {'line': b'[ 10%] Built target consai2_msgs__rosidl_generator_c\n'}
+[5.902337] (consai2_msgs) StdoutLine: {'line': b'[ 13%] Built target consai2_msgs__cpp\n'}
+[5.916983] (-) TimerEvent: {}
+[5.938732] (consai2_msgs) StdoutLine: {'line': b'[ 24%] Built target consai2_msgs__rosidl_typesupport_introspection_cpp\n'}
+[5.941991] (consai2_msgs) StdoutLine: {'line': b'[ 43%] Built target consai2_msgs__rosidl_typesupport_introspection_c\n'}
+[5.942316] (consai2_msgs) StdoutLine: {'line': b'[ 45%] Built target consai2_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[5.986723] (consai2_msgs) StdoutLine: {'line': b'[ 59%] Built target consai2_msgs__rosidl_typesupport_fastrtps_c\n'}
+[5.987040] (consai2_msgs) StdoutLine: {'line': b'[ 67%] Built target consai2_msgs__rosidl_typesupport_cpp\n'}
+[6.017117] (-) TimerEvent: {}
+[6.024164] (consai2_msgs) StdoutLine: {'line': b'[ 78%] Built target consai2_msgs__rosidl_typesupport_c\n'}
+[6.057681] (consai2_msgs) StdoutLine: {'line': b'[ 78%] Built target consai2_msgs\n'}
+[6.103512] (consai2_msgs) StdoutLine: {'line': b'[ 81%] Built target consai2_msgs__py\n'}
+[6.117249] (-) TimerEvent: {}
+[6.154393] (consai2_msgs) StdoutLine: {'line': b'[ 89%] Built target consai2_msgs__python\n'}
+[6.195428] (consai2_msgs) StdoutLine: {'line': b'[100%] Built target consai2_msgs__rosidl_typesupport_c__pyext\n'}
+[6.195692] (consai2_msgs) StdoutLine: {'line': b'[100%] Built target consai2_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.217373] (-) TimerEvent: {}
+[6.223215] (consai2_msgs) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[6.243543] (consai2_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.243897] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/share/ament_index/resource_index/rosidl_interfaces/consai2_msgs\n'}
+[6.244223] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/lib/libconsai2_msgs__rosidl_typesupport_c.so\n'}
+[6.244657] (consai2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/userdir/catkin_ws/install/consai2_msgs/lib/libconsai2_msgs__rosidl_typesupport_c.so" to ""\n'}
+[6.244817] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/share/consai2_msgs/environment/library_path.sh\n'}
+[6.245001] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/lib/libconsai2_msgs__rosidl_typesupport_cpp.so\n'}
+[6.245426] (consai2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/userdir/catkin_ws/install/consai2_msgs/lib/libconsai2_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[6.245569] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs\n'}
+[6.245727] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg\n'}
+[6.245882] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.246019] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg/robot_commands__rosidl_typesupport_fastrtps_c.h\n'}
+[6.246123] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg/robot_command__rosidl_typesupport_fastrtps_c.h\n'}
+[6.246229] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/lib/libconsai2_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[6.246417] (consai2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/userdir/catkin_ws/install/consai2_msgs/lib/libconsai2_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[6.246583] (consai2_msgs) StdoutLine: {'line': b'-- Up-to-date: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs\n'}
+[6.246735] (consai2_msgs) StdoutLine: {'line': b'-- Up-to-date: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg\n'}
+[6.246885] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg/robot_commands.h\n'}
+[6.247037] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg/robot_commands__functions.h\n'}
+[6.247220] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.247352] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg/robot_command__struct.h\n'}
+[6.247455] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg/robot_command__functions.c\n'}
+[6.247585] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg/robot_command.h\n'}
+[6.247734] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg/robot_commands__functions.c\n'}
+[6.247891] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg/robot_commands__type_support.h\n'}
+[6.248027] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg/robot_command__type_support.h\n'}
+[6.248184] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg/robot_command__functions.h\n'}
+[6.248365] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg/robot_commands__struct.h\n'}
+[6.248502] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/lib/libconsai2_msgs__rosidl_generator_c.so\n'}
+[6.248635] (consai2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/userdir/catkin_ws/install/consai2_msgs/lib/libconsai2_msgs__rosidl_generator_c.so" to ""\n'}
+[6.248739] (consai2_msgs) StdoutLine: {'line': b'-- Up-to-date: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs\n'}
+[6.248877] (consai2_msgs) StdoutLine: {'line': b'-- Up-to-date: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg\n'}
+[6.248980] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.249086] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg/robot_commands__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.249219] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg/robot_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.249366] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg/dds_fastrtps\n'}
+[6.249589] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/lib/libconsai2_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.249753] (consai2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/userdir/catkin_ws/install/consai2_msgs/lib/libconsai2_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[6.249910] (consai2_msgs) StdoutLine: {'line': b'-- Up-to-date: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs\n'}
+[6.250116] (consai2_msgs) StdoutLine: {'line': b'-- Up-to-date: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg\n'}
+[6.250290] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg/robot_commands__traits.hpp\n'}
+[6.250470] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg/robot_command__traits.hpp\n'}
+[6.250585] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg/robot_command.hpp\n'}
+[6.250719] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg/robot_command__struct.hpp\n'}
+[6.250824] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg/robot_commands.hpp\n'}
+[6.250926] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg/robot_commands__struct.hpp\n'}
+[6.251057] (consai2_msgs) StdoutLine: {'line': b'-- Up-to-date: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs\n'}
+[6.251233] (consai2_msgs) StdoutLine: {'line': b'-- Up-to-date: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg\n'}
+[6.251389] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg/robot_commands__type_support.c\n'}
+[6.251521] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.251656] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg/robot_commands__rosidl_typesupport_introspection_c.h\n'}
+[6.251768] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg/robot_command__type_support.c\n'}
+[6.251870] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg/robot_command__rosidl_typesupport_introspection_c.h\n'}
+[6.251973] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/lib/libconsai2_msgs__rosidl_typesupport_introspection_c.so\n'}
+[6.252108] (consai2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/userdir/catkin_ws/install/consai2_msgs/lib/libconsai2_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.252241] (consai2_msgs) StdoutLine: {'line': b'-- Up-to-date: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs\n'}
+[6.252405] (consai2_msgs) StdoutLine: {'line': b'-- Up-to-date: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg\n'}
+[6.252511] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg/robot_commands__type_support.cpp\n'}
+[6.252616] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg/robot_commands__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.252718] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg/robot_command__type_support.cpp\n'}
+[6.252819] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/include/consai2_msgs/msg/robot_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.252923] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/lib/libconsai2_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[6.253025] (consai2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/userdir/catkin_ws/install/consai2_msgs/lib/libconsai2_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[6.253126] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/share/consai2_msgs/environment/pythonpath.sh\n'}
+[6.253231] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/lib/python3.6/site-packages/consai2_msgs/__init__.py\n'}
+[6.293873] (consai2_msgs) StdoutLine: {'line': b"Compiling '/userdir/catkin_ws/install/consai2_msgs/lib/python3.6/site-packages/consai2_msgs/__init__.py'...\n"}
+[6.299865] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/lib/python3.6/site-packages/consai2_msgs/msg\n'}
+[6.300036] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/lib/python3.6/site-packages/consai2_msgs/msg/_robot_command_s.c\n'}
+[6.300204] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/lib/python3.6/site-packages/consai2_msgs/msg/_robot_command.py\n'}
+[6.300379] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/lib/python3.6/site-packages/consai2_msgs/msg/_robot_commands_s.c\n'}
+[6.300512] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/lib/python3.6/site-packages/consai2_msgs/msg/__init__.py\n'}
+[6.300646] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/lib/python3.6/site-packages/consai2_msgs/msg/_robot_commands.py\n'}
+[6.301268] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/lib/python3.6/site-packages/consai2_msgs/consai2_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[6.302363] (consai2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/userdir/catkin_ws/install/consai2_msgs/lib/python3.6/site-packages/consai2_msgs/consai2_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so" to ""\n'}
+[6.302878] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/lib/python3.6/site-packages/consai2_msgs/consai2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[6.304041] (consai2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/userdir/catkin_ws/install/consai2_msgs/lib/python3.6/site-packages/consai2_msgs/consai2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so" to ""\n'}
+[6.304277] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/lib/libconsai2_msgs__python.so\n'}
+[6.305098] (consai2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/userdir/catkin_ws/install/consai2_msgs/lib/libconsai2_msgs__python.so" to ""\n'}
+[6.305318] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/share/consai2_msgs/msg/RobotCommand.idl\n'}
+[6.305559] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/share/consai2_msgs/msg/RobotCommands.idl\n'}
+[6.305782] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/share/consai2_msgs/msg/RobotCommand.msg\n'}
+[6.305997] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/share/consai2_msgs/msg/RobotCommands.msg\n'}
+[6.306323] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/share/ament_index/resource_index/package_run_dependencies/consai2_msgs\n'}
+[6.306636] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/share/ament_index/resource_index/parent_prefix_path/consai2_msgs\n'}
+[6.306885] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/share/consai2_msgs/environment/ament_prefix_path.sh\n'}
+[6.307133] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/share/consai2_msgs/environment/path.sh\n'}
+[6.307355] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/share/consai2_msgs/local_setup.bash\n'}
+[6.307565] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/share/consai2_msgs/local_setup.sh\n'}
+[6.307777] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/share/consai2_msgs/local_setup.zsh\n'}
+[6.308074] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/share/ament_index/resource_index/packages/consai2_msgs\n'}
+[6.308415] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/share/consai2_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[6.308637] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/share/consai2_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.308864] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/share/consai2_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.309086] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/share/consai2_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.309307] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/share/consai2_msgs/cmake/consai2_msgsConfig.cmake\n'}
+[6.309445] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/share/consai2_msgs/cmake/consai2_msgsConfig-version.cmake\n'}
+[6.309689] (consai2_msgs) StdoutLine: {'line': b'-- Installing: /userdir/catkin_ws/install/consai2_msgs/share/consai2_msgs/package.xml\n'}
+[6.315372] (consai2_msgs) CommandEnded: {'returncode': 0}
+[6.317445] (-) TimerEvent: {}
+[6.341867] (consai2_msgs) JobEnded: {'identifier': 'consai2_msgs', 'rc': 0}
+[6.347012] (consai2_sender) JobStarted: {'identifier': 'consai2_sender'}
+[6.350054] (consai2_teleop) JobStarted: {'identifier': 'consai2_teleop'}
+[6.358828] (consai2_sender) JobProgress: {'identifier': 'consai2_sender', 'progress': 'cmake'}
+[6.360735] (consai2_sender) Command: {'cmd': ['/usr/bin/cmake', '/userdir/catkin_ws/src/consai2r2/consai2_sender', '-DCMAKE_INSTALL_PREFIX=/userdir/catkin_ws/install/consai2_sender'], 'cwd': '/userdir/catkin_ws/build/consai2_sender', 'env': OrderedDict([('HOSTNAME', 'future731-WS-X299-SAGE'), ('LD_LIBRARY_PATH', '/userdir/catkin_ws/install/consai2_msgs/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('SHLVL', '1'), ('OLDPWD', '/userdir'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('DOCKER_ROS_IP', 'localhost'), ('ROS_DISTRO', 'dashing'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,compat32,utility'), ('TERM', 'xterm'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('DOCKER_ROS_SETUP', '/catkin_ws/devel/setup.bash'), ('LANG', 'ja_JP.UTF-8'), ('AMENT_PREFIX_PATH', '/userdir/catkin_ws/install/consai2_msgs:/opt/ros/dashing'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/userdir/catkin_ws/build/consai2_sender'), ('PYTHONPATH', '/userdir/catkin_ws/install/consai2_msgs/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('CMAKE_PREFIX_PATH', '/userdir/catkin_ws/install/consai2_msgs:/opt/ros/dashing')]), 'shell': False}
+[6.364202] (consai2_teleop) JobProgress: {'identifier': 'consai2_teleop', 'progress': 'cmake'}
+[6.364857] (consai2_teleop) Command: {'cmd': ['/usr/bin/cmake', '/userdir/catkin_ws/src/consai2r2/consai2_teleop', '-DCMAKE_INSTALL_PREFIX=/userdir/catkin_ws/install/consai2_teleop'], 'cwd': '/userdir/catkin_ws/build/consai2_teleop', 'env': OrderedDict([('HOSTNAME', 'future731-WS-X299-SAGE'), ('LD_LIBRARY_PATH', '/userdir/catkin_ws/install/consai2_msgs/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('SHLVL', '1'), ('OLDPWD', '/userdir'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('DOCKER_ROS_IP', 'localhost'), ('ROS_DISTRO', 'dashing'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,compat32,utility'), ('TERM', 'xterm'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('DOCKER_ROS_SETUP', '/catkin_ws/devel/setup.bash'), ('LANG', 'ja_JP.UTF-8'), ('AMENT_PREFIX_PATH', '/userdir/catkin_ws/install/consai2_msgs:/opt/ros/dashing'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/userdir/catkin_ws/build/consai2_teleop'), ('PYTHONPATH', '/userdir/catkin_ws/install/consai2_msgs/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('CMAKE_PREFIX_PATH', '/userdir/catkin_ws/install/consai2_msgs:/opt/ros/dashing')]), 'shell': False}
+[6.417595] (-) TimerEvent: {}
+[6.437469] (consai2_sender) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.4.0\n'}
+[6.438306] (consai2_teleop) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.4.0\n'}
+[6.498938] (consai2_teleop) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.4.0\n'}
+[6.503426] (consai2_teleop) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[6.511628] (consai2_sender) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.4.0\n'}
+[6.516305] (consai2_sender) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[6.517638] (-) TimerEvent: {}
+[6.606453] (consai2_teleop) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[6.607069] (consai2_teleop) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.612400] (consai2_sender) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[6.613063] (consai2_sender) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.617817] (-) TimerEvent: {}
+[6.703278] (consai2_teleop) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.710549] (consai2_teleop) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.714344] (consai2_sender) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.717886] (-) TimerEvent: {}
+[6.718994] (consai2_sender) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.818017] (-) TimerEvent: {}
+[6.918366] (-) TimerEvent: {}
+[6.991713] (consai2_teleop) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.994632] (consai2_teleop) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[7.013022] (consai2_sender) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.018444] (-) TimerEvent: {}
+[7.019843] (consai2_sender) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[7.116673] (consai2_teleop) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[7.117436] (consai2_teleop) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.118506] (-) TimerEvent: {}
+[7.145849] (consai2_sender) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[7.146376] (consai2_sender) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.218636] (-) TimerEvent: {}
+[7.232713] (consai2_teleop) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.239707] (consai2_teleop) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.271805] (consai2_sender) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.278893] (consai2_sender) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.318755] (-) TimerEvent: {}
+[7.419143] (-) TimerEvent: {}
+[7.519594] (-) TimerEvent: {}
+[7.619998] (-) TimerEvent: {}
+[7.720356] (-) TimerEvent: {}
+[7.750447] (consai2_teleop) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.753178] (consai2_sender) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.753423] (consai2_teleop) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.3 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[7.755844] (consai2_sender) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.3 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[7.780755] (consai2_teleop) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[7.781073] (consai2_teleop) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.782347] (consai2_sender) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[7.782555] (consai2_sender) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.820481] (-) TimerEvent: {}
+[7.920946] (-) TimerEvent: {}
+[8.012912] (consai2_teleop) StdoutLine: {'line': b'-- Found rclcpp: 0.7.11 (/opt/ros/dashing/share/rclcpp/cmake)\n'}
+[8.013140] (consai2_sender) StdoutLine: {'line': b'-- Found rclcpp: 0.7.11 (/opt/ros/dashing/share/rclcpp/cmake)\n'}
+[8.021034] (-) TimerEvent: {}
+[8.040974] (consai2_teleop) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.7 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[8.041505] (consai2_sender) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.7 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[8.097634] (consai2_sender) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[8.098734] (consai2_teleop) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[8.099915] (consai2_sender) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.101056] (consai2_teleop) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.121182] (-) TimerEvent: {}
+[8.204937] (consai2_sender) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.205402] (consai2_sender) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[8.207866] (consai2_teleop) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.208318] (consai2_teleop) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[8.221286] (-) TimerEvent: {}
+[8.303295] (consai2_sender) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[8.303561] (consai2_sender) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[8.307088] (consai2_teleop) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[8.307299] (consai2_teleop) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[8.321399] (-) TimerEvent: {}
+[8.384190] (consai2_sender) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[8.384461] (consai2_sender) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[8.387133] (consai2_teleop) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[8.387349] (consai2_teleop) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[8.421523] (-) TimerEvent: {}
+[8.483003] (consai2_teleop) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[8.484283] (consai2_teleop) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.489095] (consai2_sender) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[8.490079] (consai2_sender) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.518244] (consai2_sender) StdoutLine: {'line': b'-- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)\n'}
+[8.521599] (-) TimerEvent: {}
+[8.523589] (consai2_sender) StdoutLine: {'line': b'-- Found consai2_msgs: 0.0.0 (/userdir/catkin_ws/install/consai2_msgs/share/consai2_msgs/cmake)\n'}
+[8.527233] (consai2_teleop) StdoutLine: {'line': b'-- Found rclcpp_components: 0.7.11 (/opt/ros/dashing/share/rclcpp_components/cmake)\n'}
+[8.533062] (consai2_teleop) StdoutLine: {'line': b'-- Found poco_vendor:  (/opt/ros/dashing/share/poco_vendor/cmake)\n'}
+[8.541798] (consai2_sender) StderrLine: {'line': b'CMake Error at /usr/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake:137 (message):\n'}
+[8.542002] (consai2_sender) StderrLine: {'line': b'  Could NOT find Protobuf (missing: Protobuf_INCLUDE_DIR)\n'}
+[8.542089] (consai2_sender) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.542167] (consai2_sender) StderrLine: {'line': b'  /usr/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake:378 (_FPHSA_FAILURE_MESSAGE)\n'}
+[8.542242] (consai2_sender) StderrLine: {'line': b'  /usr/share/cmake-3.10/Modules/FindProtobuf.cmake:543 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)\n'}
+[8.542320] (consai2_sender) StderrLine: {'line': b'  CMakeLists.txt:21 (find_package)\n'}
+[8.542393] (consai2_sender) StderrLine: {'line': b'\n'}
+[8.542467] (consai2_sender) StderrLine: {'line': b'\n'}
+[8.543021] (consai2_sender) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[8.543125] (consai2_sender) StdoutLine: {'line': b'See also "/userdir/catkin_ws/build/consai2_sender/CMakeFiles/CMakeOutput.log".\n'}
+[8.543205] (consai2_sender) StdoutLine: {'line': b'See also "/userdir/catkin_ws/build/consai2_sender/CMakeFiles/CMakeError.log".\n'}
+[8.546936] (consai2_sender) CommandEnded: {'returncode': 1}
+[8.547381] (consai2_sender) JobEnded: {'identifier': 'consai2_sender', 'rc': 1}
+[8.555274] (consai2_teleop) StdoutLine: {'line': b'-- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)\n'}
+[8.563568] (consai2_teleop) StdoutLine: {'line': b'-- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)\n'}
+[8.584513] (consai2_teleop) StdoutLine: {'line': b'-- Found consai2_msgs: 0.0.0 (/userdir/catkin_ws/install/consai2_msgs/share/consai2_msgs/cmake)\n'}
+[8.621748] (-) TimerEvent: {}
+[8.706402] (consai2_teleop) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.721906] (-) TimerEvent: {}
+[8.743538] (consai2_teleop) StdoutLine: {'line': b'-- Generating done\n'}
+[8.744588] (consai2_teleop) StdoutLine: {'line': b'-- Build files have been written to: /userdir/catkin_ws/build/consai2_teleop\n'}
+[8.748909] (consai2_teleop) JobEnded: {'identifier': 'consai2_teleop', 'rc': 'SIGINT'}
+[8.760585] (-) EventReactorShutdown: {}

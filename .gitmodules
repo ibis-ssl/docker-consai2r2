@@ -1,0 +1,3 @@
+[submodule "catkin_ws/src/consai2r2"]
+	path = catkin_ws/src/consai2r2
+	url = git@github.com:SSL-Roots/consai2r2
