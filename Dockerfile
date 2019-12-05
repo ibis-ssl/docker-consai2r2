@@ -10,8 +10,10 @@ RUN apt-get update && apt-get upgrade -y && apt-get install -y --no-install-reco
     #\
     # && apt-get clean \
     # && rm -rf /var/lib/apt/lists/
-RUN apt-get install -y libprotobuf-dev libprotoc-dev protobuf-compiler
-RUN pip2 install protobuf
+RUN apt-get install -y --no-install-recommends python-rosdep
+# これらはrosdepによって最終的に入れられるので開発用途以外では不要
+RUN apt-get install -y --no-install-recommends libprotobuf-dev libprotoc-dev protobuf-compiler
+RUN rosdep init && rosdep update
 
 COPY entrypoint/ros2launch.sh /
 COPY entrypoint/colcon_build.sh /
