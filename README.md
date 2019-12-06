@@ -20,3 +20,8 @@ $ ./docker_build.sh --no-cache
 ```bash
 $ ./bash.sh
 ```
+
+# How to develop
+- 前提として， `colcon_ws/src/edge-repos` ディレクトリが `.gitignore` に入っている
+- `colcon_ws/src/edge-repos` ディレクトリの中に `$ git clone [開発中のgit URI]` などで実装中のリポジトリを入れる
+- `$ ./colcon_build.sh`
