@@ -5,23 +5,29 @@
 # How to execute consai2
 - nvidia driverのある環境
 ```bash
-$ ./docker_build.sh # dockerイメージを作る
-$ ./colcon_build.sh # colcon buildする
-$ ./bash.sh # bashを起動する
+(ホストマシン上) $ ./docker_build.sh # dockerイメージを作る
+(ホストマシン上) $ ./colcon_build.sh # colcon buildする
+(ホストマシン上) $ ./bash.sh # bashを起動する
 ```
 
 # How to build docker image without cache
 ```bash
-$ ./docker_build.sh --no-cache
+(ホストマシン上) $ ./docker_build.sh --no-cache
 ```
 
 # How to run bash on the consai2 image
 
 ```bash
-$ ./bash.sh
+(ホストマシン上) $ ./bash.sh
+```
+
+# How to format using ament_uncrustify and test it
+```bash
+(ホストマシン上) $ ./ament_uncrustify_reformat.sh
+(ホストマシン上) $ ./colcon_test.sh
 ```
 
 # How to develop
 - 前提として， `colcon_ws/src/edge-repos` ディレクトリが `.gitignore` に入っている
-- `colcon_ws/src/edge-repos` ディレクトリの中に `$ git clone [開発中のgit URI]` などで実装中のリポジトリを入れる
-- `$ ./colcon_build.sh`
+- `colcon_ws/src/edge-repos` ディレクトリがなければ作成し `$ git clone [開発中のgit URI]` などで実装中のリポジトリを入れる
+- `(ホストマシン上) $ ./colcon_build.sh`
