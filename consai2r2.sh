@@ -38,6 +38,7 @@ docker run ${OPT}    \
     --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
     --gpus=all \
     --name=${cname} \
+    --volume="${PROGRAM_DIR:-$DEFAULT_USER_DIR}/root:/root" \
     --volume="${PROGRAM_DIR:-$DEFAULT_USER_DIR}:/userdir" \
     -w="/userdir" \
     ${iname} ${EXE}
