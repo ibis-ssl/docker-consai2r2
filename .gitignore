@@ -3,3 +3,5 @@
 /colcon_ws/install
 /colcon_ws/log
 /colcon_ws/src/edge-repos
+/root/*
+!/root/.gitkeep
