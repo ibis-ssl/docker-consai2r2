@@ -31,3 +31,6 @@
 - 前提として， `colcon_ws/src/edge-repos` ディレクトリが `.gitignore` に入っている
 - `colcon_ws/src/edge-repos` ディレクトリがなければ作成し `$ git clone [開発中のgit URI]` などで実装中のリポジトリを入れる
 - `(ホストマシン上) $ ./colcon_build.sh`
+
+# How to connect your joypad
+- lsusbコマンドを用いてvendor idとdevice idを調べ，usb_mount_args.pyのID xxxx:yyyyという表記を書き換える

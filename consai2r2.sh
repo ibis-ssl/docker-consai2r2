@@ -22,6 +22,8 @@ NET_OPT="--net=host --env=DOCKER_ROS_IP --env=DOCKER_ROS_MASTER_URI"
 # NET_OPT="--net=host --env=DOCKER_ROS_IP --env=DOCKER_ROS_MASTER_URI --cap-add=SYS_PTRACE --security-opt=seccomp=unconfined"
 # NET_OPT="--net=host --env=NVIDIA_DRIVER_CAPABILITIES --env=NVIDIA_VISIBLE_DEVICES"
 
+USB_MOUNT_ARG=$(python3 usb_mount_arg.py)
+
 xhost +si:localuser:root
 
 if [ "$(docker container ls -aq -f name=${cname})" ]; then
@@ -38,6 +40,7 @@ docker run ${OPT}    \
     --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
     --gpus=all \
     --name=${cname} \
+    ${USB_MOUNT_ARG} \
     --volume="${PROGRAM_DIR:-$DEFAULT_USER_DIR}/root/.bash_history:/root/.bash_history" \
     --volume="${PROGRAM_DIR:-$DEFAULT_USER_DIR}:/userdir" \
     -w="/userdir" \
