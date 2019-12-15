@@ -12,4 +12,5 @@ RUN rosdep init && rosdep update
 COPY entrypoint/ros2launch.sh /
 COPY entrypoint/colcon_build.sh /
 COPY entrypoint/colcon_test.sh /
+COPY entrypoint/colcon_clean.sh /
 COPY entrypoint/ament_uncrustify_reformat.sh /
