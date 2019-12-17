@@ -1,7 +1,7 @@
 #!/bin/bash
 
 OPT=${DOCKER_OPTION} ## -it --cpuset-cpus 0-2
-iname=${DOCKER_IMAGE:-"ibis/consai2r2"} ## name of image (should be same as in build.sh)
+iname=${DOCKER_IMAGE:-"ibisssl/consai2r2"} ## name of image (should be same as in build.sh)
 cname=${DOCKER_CONTAINER:-"consai2r2"} ## name of container (should be same as in exec.sh)
 
 DEFAULT_USER_DIR="$(pwd)"
