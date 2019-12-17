@@ -42,6 +42,7 @@ docker run ${OPT}    \
     --name=${cname} \
     ${USB_MOUNT_ARG} \
     --volume="${PROGRAM_DIR:-$DEFAULT_USER_DIR}/root/.bash_history:/root/.bash_history" \
+    --volume="${PROGRAM_DIR:-$DEFAULT_USER_DIR}/root/.bashrc:/root/.bashrc" \
     --volume="${PROGRAM_DIR:-$DEFAULT_USER_DIR}:/userdir" \
     -w="/userdir" \
     ${iname} ${EXE}
