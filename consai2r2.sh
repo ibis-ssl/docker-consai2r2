@@ -31,18 +31,30 @@ if [ "$(docker container ls -aq -f name=${cname})" ]; then
     docker rm ${cname}
 fi
 
-docker run ${OPT}    \
+ARG="${OPT}    \
     --privileged     \
     ${NET_OPT}       \
-    --env="DOCKER_ROS_SETUP=/colcon_ws/devel/setup.bash" \
-    --env="DISPLAY"  \
-    --env="QT_X11_NO_MITSHM=1" \
-    --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
-    --gpus=all \
+    --env=DOCKER_ROS_SETUP=/colcon_ws/devel/setup.bash \
+    --env=DISPLAY  \
+    --env=QT_X11_NO_MITSHM=1 \
+    --volume=/tmp/.X11-unix:/tmp/.X11-unix:rw \
     --name=${cname} \
     ${USB_MOUNT_ARG} \
-    --volume="${PROGRAM_DIR:-$DEFAULT_USER_DIR}/root/.bash_history:/root/.bash_history" \
-    --volume="${PROGRAM_DIR:-$DEFAULT_USER_DIR}/root/.bashrc:/root/.bashrc" \
-    --volume="${PROGRAM_DIR:-$DEFAULT_USER_DIR}:/userdir" \
-    -w="/userdir" \
-    ${iname} ${EXE}
+    --volume=${PROGRAM_DIR:-$DEFAULT_USER_DIR}:/userdir \
+    -w=/userdir \
+    ${iname} ${EXE}"
+
+    # --volume="${PROGRAM_DIR:-$DEFAULT_USER_DIR}/root/.bashrc:/root/.bashrc" \
+if type nvidia-smi; then
+    echo "Nvidia driver environment detected."
+    ARG="--gpus=all ${ARG}"
+fi
+if [ -f ./root/.bash_history ]; then
+    ARG="--volume=${PROGRAM_DIR:-$DEFAULT_USER_DIR}/root/.bash_history:/root/.bash_history ${ARG}"
+fi
+
+if [ -f ./root/.bashrc ]; then
+    ARG="--volume=${PROGRAM_DIR:-$DEFAULT_USER_DIR}/root/.bashrc:/root/.bashrc ${ARG}"
+fi
+
+docker run ${ARG}
