@@ -37,7 +37,6 @@ ARG="${OPT}    \
     --env=QT_X11_NO_MITSHM=1 \
     --volume=/tmp/.X11-unix:/tmp/.X11-unix:rw \
     --name=${cname} \
-    ${USB_MOUNT_ARG} \
     --volume=${PROGRAM_DIR:-$DEFAULT_USER_DIR}:/userdir \
     -w=/userdir \
     ${iname} ${EXE}"
