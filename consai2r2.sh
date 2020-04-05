@@ -42,8 +42,8 @@ ARG="${OPT}    \
     ${iname} ${EXE}"
 
     # --volume="${PROGRAM_DIR:-$DEFAULT_USER_DIR}/root/.bashrc:/root/.bashrc" \
-if type python3; then
-    echo "python3 can be executed."
+if type lsusb; then
+    echo "lsusb can be executed."
     ARG="$(python3 usb_mount_arg.py) ${ARG}"
 fi
 
