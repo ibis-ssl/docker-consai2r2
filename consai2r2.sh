@@ -22,8 +22,6 @@ NET_OPT="--net=host --env=DOCKER_ROS_IP --env=DOCKER_ROS_MASTER_URI"
 # NET_OPT="--net=host --env=DOCKER_ROS_IP --env=DOCKER_ROS_MASTER_URI --cap-add=SYS_PTRACE --security-opt=seccomp=unconfined"
 # NET_OPT="--net=host --env=NVIDIA_DRIVER_CAPABILITIES --env=NVIDIA_VISIBLE_DEVICES"
 
-USB_MOUNT_ARG=$(python3 usb_mount_arg.py)
-
 xhost +si:localuser:root
 
 if [ "$(docker container ls -aq -f name=${cname})" ]; then
@@ -45,6 +43,11 @@ ARG="${OPT}    \
     ${iname} ${EXE}"
 
     # --volume="${PROGRAM_DIR:-$DEFAULT_USER_DIR}/root/.bashrc:/root/.bashrc" \
+if type python3; then
+    echo "python3 can be executed."
+    ARG="$(python3 usb_mount_arg.py) ${ARG}"
+fi
+
 if type nvidia-smi; then
     echo "Nvidia driver environment detected."
     ARG="--gpus=all ${ARG}"
