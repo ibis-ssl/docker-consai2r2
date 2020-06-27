@@ -6,7 +6,7 @@ RUN apt-get update && apt-get upgrade -y && apt-get install -y --no-install-reco
     # && rm -rf /var/lib/apt/lists/
 RUN apt-get install -y --no-install-recommends python-rosdep wget
 # これらはrosdepによって最終的に入れられるので開発用途以外では不要
-RUN apt-get install -y --no-install-recommends libprotobuf-dev libprotoc-dev protobuf-compiler python3-protobuf
+RUN apt-get install -y --no-install-recommends libprotobuf-dev libprotoc-dev protobuf-compiler python3-protobuf libboost-dev
 RUN wget https://launchpad.net/ubuntu/+archive/primary/+files/liborocos-bfl0.8_0.8.0-5_amd64.deb
 RUN wget https://launchpad.net/ubuntu/+archive/primary/+files/liborocos-bfl-dev_0.8.0-5_amd64.deb
 RUN dpkg -i liborocos-bfl0.8_0.8.0-5_amd64.deb
