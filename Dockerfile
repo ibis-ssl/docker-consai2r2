@@ -1,4 +1,4 @@
-FROM ibisssl/ros2-dashing
+FROM ros:eloquent
 
 RUN apt-get update && apt-get upgrade -y && apt-get install -y --no-install-recommends \
     cmake g++ vim tmux x11-apps mesa-utils python-pip
