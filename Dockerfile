@@ -11,6 +11,7 @@ RUN wget https://launchpad.net/ubuntu/+archive/primary/+files/liborocos-bfl0.8_0
 RUN wget https://launchpad.net/ubuntu/+archive/primary/+files/liborocos-bfl-dev_0.8.0-5_amd64.deb
 RUN dpkg -i liborocos-bfl0.8_0.8.0-5_amd64.deb
 RUN dpkg -i liborocos-bfl-dev_0.8.0-5_amd64.deb
+RUN rm /etc/ros/rosdep/sources.list.d/20-default.list
 RUN rosdep init && rosdep update
 
 
