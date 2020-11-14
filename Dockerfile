@@ -1,4 +1,5 @@
-FROM ros:eloquent
+ARG ROS_DISTRO=none
+FROM ros:$ROS_DISTRO
 
 RUN apt-get update && apt-get upgrade -y && apt-get install -y --no-install-recommends \
     cmake g++ vim tmux x11-apps mesa-utils python-pip
@@ -20,3 +21,4 @@ COPY entrypoint/colcon_build.sh /
 COPY entrypoint/colcon_test.sh /
 COPY entrypoint/colcon_clean.sh /
 COPY entrypoint/ament_uncrustify_reformat.sh /
+COPY entrypoint/ros_distro.bash /

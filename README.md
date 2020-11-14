@@ -2,6 +2,9 @@
 - docker-ce
 - (nvidia-docker for nvidia drivers)
 
+# How to update ROS2 version
+`./entrypoint/ros_version.bash` を変更しましょう
+
 # How to execute consai2
 - nvidia driverのある環境
 ```bash
