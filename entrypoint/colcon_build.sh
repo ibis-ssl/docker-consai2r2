@@ -1,5 +1,6 @@
 #!/bin/bash
-source /opt/ros/dashing/setup.bash
+source /ros_distro.bash
+source /opt/ros/${ROS_DISTRO}/setup.bash
 
 EXE=${@:-""}
 
